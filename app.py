@@ -15,7 +15,7 @@ st.set_page_config(
 st.markdown("""
 <style>
 .stApp{
-    background-color:#0F0F0F;
+    background-color:#9D4EDD;
 }
 
 h1{
@@ -24,7 +24,7 @@ h1{
 }
 
 .stButton>button{
-    background:#B57EDC;
+    background:#9D4EDD;
     color:white;
     border-radius:12px;
     padding:10px 20px;
