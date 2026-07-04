@@ -9,11 +9,36 @@ model = genai.GenerativeModel("gemini-2.5-flash")
 # Page Configuration
 st.set_page_config(
     page_title="AI Email Generator",
-    page_icon="📧",
+    page_icon="💌",
     layout="centered"
 )
+st.markdown("""
+<style>
+.stApp{
+    background-color:#0F0F0F;
+}
 
-st.title("📧 AI Email Generator")
+h1{
+    color:#D8B4F8 !important;
+    text-align:center;
+}
+
+.stButton>button{
+    background:#B57EDC;
+    color:white;
+    border-radius:12px;
+    padding:10px 20px;
+    font-weight:bold;
+    border:none;
+}
+
+.stButton>button:hover{
+    background:#9D4EDD;
+    color:white;
+}
+</style>
+""", unsafe_allow_html=True)
+st.title("💌 AI Email Generator")
 st.write("Generate professional emails instantly using Google Gemini AI.")
 
 # Input Fields
